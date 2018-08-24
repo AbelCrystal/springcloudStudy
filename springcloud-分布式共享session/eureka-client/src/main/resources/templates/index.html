@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+    <head>
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	  	<meta charset="utf-8"/>
+	  	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+        <title>eureka-client</title>
+    </head>
+    <body>
+        <h1>This is eureka-client</h1>
+        	当前登录人：<div th:text="${session.login_user}"></div>
+        	登录时间：<div th:text="${session.login_time}"></div>
+    </body>
+</html>
